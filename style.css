@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e7d8c9;
+    color: #b2967d;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+   
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8C5A3C;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;         
+               
+    min-height: 100vh;
+}
+#addBtn{
+    padding: 5px 20px;
+    background-color: #99cc33;
+    color: #fefae0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#textInput{
+    padding: 7px 10px;
+    border: 1px solid #b2967d;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+li{
+    list-style:decimal;
+    padding: 10px;
+    background-color: #ccd5ae;
+    color: #804810;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 15px;
+}
+ul{
+   padding: 0;
+    margin-top: 20px;
+    width: 300px;
+    max-height: 400px; 
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.delete-btn{
+    background-color: #ff6a6a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.edit-input{
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #b2967d;
+    border-radius: 5px;
+}
